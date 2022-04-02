@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>fluid</th>
+    <th>parameter</th>
+    <th>standard value</th>
+    <th>critical value</th>
+  </tr>
+  <tr>
+    <td>transmission fluid</td>
+    <td>temperature</td>
+    <td>155 C-230 C</td>
+    <td>above 230 and below 155</td>
+  </tr>
+  <tr>
+    <td>brake fluid</td>
+    <td>pressure</td>
+    <td>1100 psi-1300 psi</td>
+    <td>above 1300 psi and below 1100 psi</td>
+  
+  </tr>
+</table>
+
+</body>
+</html>
